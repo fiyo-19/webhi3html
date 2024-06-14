@@ -21,7 +21,7 @@ body a{
 }
 
 .banner .banner-container .banner-img img{
-    max-width: 450px;
+    max-width: 100vh;
 }
 
 .programme-container .programme-box .programme-list{
@@ -55,12 +55,12 @@ body a{
     color: #FF731D;
 }
 
-.swiper {
+.swiper{
     width: 100%;
     height: 100%;
 }
 
-.swiper {
+.swiper{
     margin-left: auto;
     margin-right: auto;
 }
@@ -122,6 +122,27 @@ body a{
     color: #1746A2;
 }
 
+.partnership-list .partnership-list-choice{
+    background-color: #FF9900;
+    transition: background-color 0.8s ease-in-out;
+}
+
+.partnership-list .partnership-list-choice h1{
+    color: #174A62;
+}
+
+.partnership-list .partnership-list-choice:hover{
+    background-color: #1746A2;
+}
+
+.partnership-list .partnership-list-choice:hover p{
+    color: #fff;
+}
+
+.partnership-list .partnership-list-choice:hover h1, 
+.partnership-list .partnership-list-choice:hover a{
+    color: #FF9900;
+}
 
 /* ================================================PARTNERSHIP=================================================== */
 
@@ -134,22 +155,24 @@ body a{
 
 .career-info .career-info-container .career-box .odd{
     background-color: #1746A2;
+    transition: .8s ease-in-out;
 }
+
+/* .career-info .career-info-container .career-box .odd:hover{
+    background-color: #FF9900;
+} */
 
 .career-info .career-info-container .career-box .even{
     background-color: #FF9900;
+    transition: .8s ease-in-out;
 }
+
+/* .career-info .career-info-container .career-box .even:hover{
+    background-color: #1746A2;
+} */
 
 .career-info .career-info-container .career-box .career-link a{
     color: #fff;
-}
-
-.career-info .career-info-container .career-box .odd a:hover{
-    color: #1746A2;
-}
-
-.career-info .career-info-container .career-box .even a:hover{
-    color: #FF9900;
 }
 
 .career-info .career-info-container .career-box .odd a{
@@ -158,6 +181,14 @@ body a{
 
 .career-info .career-info-container .career-box .even a{
     background-color: #1746A2;
+}
+
+.career-info .career-info-container .career-box .odd a:hover{
+    color: #1746A2;
+}
+
+.career-info .career-info-container .career-box .even a:hover{
+    color: #FF9900;
 }
 
 .culture .culture-container .cultures img{
