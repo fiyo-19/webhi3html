@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Programme | House Ilmu Indonesia</title>
+        <link rel="icon" href="../assets/img/logo.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="../assets/css/navbar-footer.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md" style="background-color: #FFF7E9 ;">
+            <div class="navbar-container container-sm ">
+                <div class="nav-img d-flex flex-row justify-content-around justify-content-lg-start align-items-center">
+                    <img src="../assets/img/logo.png" alt="">
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="nav-bars"><i class="bi bi-list fs-1" style="color: #FE9000;"></i></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse py-3 " id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto text-center d-flex align-items-center justify-content-center fw-semibold" data-aos="fade-left">
+                        <a class="nav-link" aria-current="page" href="../">Home</a>
+                        <a class="nav-link mx-0 mx-md-1 mx-lg-3 active" href="">Programme</a>
+                        <a class="nav-link" href="../partnership/">Partnership</a>
+                        <a class="nav-link mx-0 mx-md-1 mx-lg-3" href="../article/">Article</a>
+                        <a class="nav-link" href="../career/">Career</a>
+                        <a class="nav-link mx-0 mx-md-1 mx-lg-3" href="../about-us/">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="program-title container-xl mt-5">
+            <div class="program-title-container container-xl d-flex flex-column flex-md-row justify-content-between align-items-start">
+                <h1 class="col-12 col-md-5 col-xl-4 fw-bold" style="color: #083D77;">Let’s Join Our Programs</h1>
+                <p class="col-12 col-md-7 col-xl-8 fw-medium mt-3 mt-md-0">Pilih program yang sesuai dengan kebutuhan dan tujuan karirmu. Program program kami dirancang khusus untuk membantu mempersiapkan karirmu. Tentunya dengan bimbingan para ahli yang berpengalaman.</p>
+            </div>            
+        </section>
+
+        <section class="programs container-xl mt-5">
+            <div class="programs-container container-xl d-flex flex-column flex-md-row justify-content-around align-items-center align-items-lg-start">
+
+                <div class="card my-2 my-md-0 mx-0 mx-md-2">
+                    <img src="../assets/img/tes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body px-4" style="background-color: #FFDD95;">
+                            <a href="#">
+                                <h3 id="card-1" class="card-title py-3 my-4 rounded-pill fw-bold text-center">Review CV</h3>
+                            </a>
+                            <p class="card-text fw-semibold" style="color: #083D77;">Program yang mengasah critical dan analytical thinking untuk memecahkan problem sehingga menghasilkan inovasi yang solutif di berbagai daerah</p>
+                            <div class="d-flex flex-row justify-content-between">
+                                <div class="card-icon d-flex flex-row col-5 col-lg-4">
+                                    <i class="fa-solid fa-user px-2 fs-5"></i>
+                                    <p class="">314,000</p>
+                                </div>
+                                <div class="card-icon d-flex flex-row col-5 col-lg-8">
+                                    <i class="fa-solid fa-star px-2 fs-5"></i>
+                                    <p>5,0</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card" my-2 my-md-0>
+                    <img src="../assets/img/tes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body px-4" style="background-color: #F69259;">
+                            <a href="#">
+                                <h3 id="card-2" class="card-title py-3 my-4 rounded-pill fw-bold text-center">Sudut Karir</h3>
+                            </a>
+                            <p class="card-text fw-semibold" style="color: #083D77;">Program yang mengasah critical dan analytical thinking untuk memecahkan problem sehingga menghasilkan inovasi yang solutif di berbagai daerah</p>
+                            <div class="d-flex flex-row justify-content-between">
+                                <div class="card-icon d-flex flex-row col-5 col-lg-4">
+                                    <i class="fa-solid fa-user px-2 fs-5"></i>
+                                    <p class="">314,000</p>
+                                </div>
+                                <div class="card-icon d-flex flex-row col-5 col-lg-8">
+                                    <i class="fa-solid fa-star px-2 fs-5"></i>
+                                    <p>5,0</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="programs1-desc container-fluid mt-5" style=" background-color: #FFDD95;">
+            <div class="programs-desc container-xl d-flex flex-column p-4">
+                <h1 class="col-12 col-lg-4 rounded-pill text-center fw-bold p-2 my-4" style="background-color: #FF731D; color: #083D77;">Review CV</h1>
+                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-start">
+                    <div class="col-12 col-lg-4 position-relative d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid py-2 rounded-4" src="../assets/img/tes.jpg" alt="">
+                        <div class="programs-rate d-inline py-2 px-3 rounded-4" style="background-color: #fff;">
+                            <i class="fa-solid fa-star" style="color: #ffd233;"></i>
+                            <span class="fw-bold">5.0</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7 d-flex flex-column justify-content-start align-items-start">
+                        <h1 class="py-2 fw-bold" style="color: #083D77;">Goals</h1>
+                        <p class="fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <h1 class="py-2 fw-bold" style="color: #083D77;">Why</h1>
+                        <p class="fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-container container-xxl d-flex flex-column flex-lg-row pb-4 ">
+                    <div class="d-flex flex-column justify-content-start align-items-start rounded-4 p-4 m-1 m-md-2" style="background-color: #fff;">
+                        <div class="d-flex justify-content-center ">
+                            <img class="rounded-circle p-1" style="height: 80px;" src="../assets/img/logo.png" alt="">
+                            <div class="d-flex flex-column px-1 ">
+                                <h5 class="fw-semibold" style="color: #1746A2;">Seseorang</h5>
+                                <h6 style="color: #FF731D;">Mahasiswa Universitas</h6>
+                            </div>
+                        </div>
+                        <p class=" fw-medium p-1">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-start align-items-start rounded-4 p-4 m-1 m-md-2" style="background-color: #fff;">
+                        <div class="d-flex justify-content-center ">
+                            <img class="rounded-circle p-1" style="height: 80px;" src="../assets/img/logo.png" alt="">
+                            <div class="d-flex flex-column px-1 ">
+                                <h5 class="fw-semibold" style="color: #1746A2;">Seseorang</h5>
+                                <h6 style="color: #FF731D;">Mahasiswa Universitas</h6>
+                            </div>
+                        </div>
+                        <p class=" fw-medium p-1">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                    </div>
+
+
+                    <div class="d-flex flex-column justify-content-start align-items-start rounded-4 p-4 m-1 m-md-2" style="background-color: #fff;">
+                        <div class="d-flex justify-content-center ">
+                            <img class="rounded-circle p-1" style="height: 80px;" src="../assets/img/logo.png" alt="">
+                            <div class="d-flex flex-column px-1 ">
+                                <h5 class="fw-semibold" style="color: #1746A2;">Seseorang</h5>
+                                <h6 style="color: #FF731D;">Mahasiswa Universitas</h6>
+                            </div>
+                        </div>
+                        <p class=" fw-medium p-1">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="programs2-desc container-fluid my-5" style=" background-color: #F4D35E;">
+            <div class="programs-desc container-xl d-flex flex-column p-4">
+                <h1 class="col-12 col-lg-4 rounded-pill text-center fw-bold p-2 my-4" style="background-color: #FF731D; color: #083D77;">Sudut Karir</h1>
+                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-start">
+                    <div class="col-12 col-lg-4 position-relative d-flex flex-column justify-content-center align-items-center">
+                        <img class="img-fluid py-2 rounded-4" src="../assets/img/tes.jpg" alt="">
+                        <div class="programs-rate d-inline py-2 px-3 rounded-4" style="background-color: #fff;">
+                            <i class="fa-solid fa-star" style="color: #ffd233;"></i>
+                            <span class="fw-bold">5.0</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7 d-flex flex-column justify-content-start align-items-start">
+                        <h1 class="py-2 fw-bold" style="color: #083D77;">Goals</h1>
+                        <p class="fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <h1 class="py-2 fw-bold" style="color: #083D77;">Why</h1>
+                        <p class="fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-container container-xxl d-flex flex-column flex-lg-row pb-4 ">
+                    <div class="d-flex flex-column justify-content-start align-items-start rounded-4 p-4 m-1 m-md-2" style="background-color: #fff;">
+                        <div class="d-flex justify-content-center ">
+                            <img class="rounded-circle p-1" style="height: 80px;" src="../assets/img/logo.png" alt="">
+                            <div class="d-flex flex-column px-1 ">
+                                <h5 class="fw-semibold" style="color: #1746A2;">Seseorang</h5>
+                                <h6 style="color: #FF731D;">Mahasiswa Universitas</h6>
+                            </div>
+                        </div>
+                        <p class=" fw-medium p-1">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-start align-items-start rounded-4 p-4 m-1 m-md-2" style="background-color: #fff;">
+                        <div class="d-flex justify-content-center ">
+                            <img class="rounded-circle p-1" style="height: 80px;" src="../assets/img/logo.png" alt="">
+                            <div class="d-flex flex-column px-1 ">
+                                <h5 class="fw-semibold" style="color: #1746A2;">Seseorang</h5>
+                                <h6 style="color: #FF731D;">Mahasiswa Universitas</h6>
+                            </div>
+                        </div>
+                        <p class=" fw-medium p-1">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                    </div>
+
+
+                    <div class="d-flex flex-column justify-content-start align-items-start rounded-4 p-4 m-1 m-md-2" style="background-color: #fff;">
+                        <div class="d-flex justify-content-center ">
+                            <img class="rounded-circle p-1" style="height: 80px;" src="../assets/img/logo.png" alt="">
+                            <div class="d-flex flex-column px-1 ">
+                                <h5 class="fw-semibold" style="color: #1746A2;">Seseorang</h5>
+                                <h6 style="color: #FF731D;">Mahasiswa Universitas</h6>
+                            </div>
+                        </div>
+                        <p class=" fw-medium p-1">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <div class="border border-1 border-dark"></div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+
+<footer>
+    <section class="footer-container container-fluid" style="background-color: #FFDD95;">
+        <div class="footer-info container-xl d-flex flex-column flex-md-row justify-content-around align-items-start">
+            <img class="col-12 col-md-3 mx-1 px-1" src="../assets/img/logo.png" alt="">
+            <div class="footer-nav col-12 col-md-3 d-flex flex-column align-items-start mx-1 px-1">
+                <h5 class="py-3">SITEMAP</h5>
+                <a class="my-1" href="../">Home</a>
+                <a class="my-1" href="../programme">Programme</a>
+                <a class="my-1" href="../partnership">Partnership</a>
+                <a class="my-1" href="../article">Article</a>
+                <a class="my-1" href="../career">Career</a>
+                <a class="my-1" href="../about-us">About us</a>
+            </div>
+            <div class="footer-sosmed col-12 col-md-3 d-flex flex-column align-items-start mx-1 px-1">
+                <h5 class="py-3">SOCIAL MEDIA</h5>
+                <a class="my-1" href="#">Facebook</a>
+                <a class="my-1" href="#">LinkedIn</a>
+                <a class="my-1" href="#">Instagram</a>
+                <a class="my-1" href="#">Twitter</a>
+                <a class="my-1" href="#">Tiktok</a>
+            </div>
+            <div class="footer-contact col-12 col-md-3 d-flex flex-column align-items-start mx-1 px-1">
+                <h5 class="py-3">HEAD OFFICE</h5>
+                <p class="mb-5">Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22, Charlottesville, CA 45565</p>
+                <h5 class="py-3">NEWS LETTER</h5>
+                <p class="">Enter your email address</p>
+            </div>
+        </div>
+        <div class="footer-contacts container-xl d-flex flex-column flex-md-row justify-content-center align-items-start">
+            <p class=""><a class="col-12 col-md-4 mx-1 my-1 " href="#">houseilmu@gmail.com </a>|</p>
+            <p><a class="col-12 col-md-4 mx-1 my-1 " href="#">(123) 456-7890 </a>|</p>
+            <p class="col-12 col-md-6 col-lg-4 mx-1  ">&copy; 2024 House Ilmu All rights reserved.</p>
+        </div>
+    </section>
+</footer>
+</html>

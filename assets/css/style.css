@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.indent{
+    text-indent: 2em;
+}
+
+body{
+    background-color: #FFF7E9;
+    height: 5000px;
+}
+
+body a{
+    text-decoration: none;
+}
+
+.banner .banner-container .banner-img img{
+    max-width: 450px;
+}
+
+.programme-container .programme-box .programme-list{
+    min-height: 350px;
+}
+
+.programme-container .programme-box .programme-list a{
+    color: #1746A2;
+}
+.programme-container .programme-box .programme-list a:hover{
+    color: #215dd1;
+}
+
+.partner .partner-container img{
+    width: 100px;
+}
+
+.testimonial .swiper .odd{
+    background-color: #FFDD95;
+}
+
+.testimonial .swiper .even{
+    background-color: #EBEBD3;
+}
+
+.testimonial .swiper .swiper-slide #testi-name{
+    color: #1746A2; font-weight: 700;
+}
+
+.testimonial .swiper .swiper-slide #testi-role{
+    color: #FF731D;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mentors .mentors-container .mentors-img img{
+    max-width: 250px;
+}
+
+.mentors .mentors-container .mentors-img h4{
+    color: #FF9900;
+}
+
+/* =================================================INDEX======================================================== */
+/* ================================================PROGRAMME===================================================== */
+
+.programs .card .card-body a #card-1{
+    background-color: #F69259;
+}
+
+.programs .card .card-body a #card-2{
+    background-color: #FFDD95;
+}
+
+.programs .card .card-body a h3{
+    color: #083D77;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.programs .card .card-body a #card-1:hover{
+    color: #FFDD95; background-color: #083D77; 
+}
+
+.programs .card .card-body a #card-2:hover{
+    color: #F69259; background-color: #083D77; 
+}
+
+.programs .card .card-body .card-icon i, .programs .card .card-body .card-icon p{
+    color: #1246a2;
+}
+
+@media only screen and (max-width: 319px){
+    .programs .card{
+        width: 18rem;
+    }
+
+}
+
+.programs1-desc .programs-rate, .programs2-desc .programs-rate{
+    position: relative;
+    top: -20px;
+}
+
+/* ================================================PROGRAMME===================================================== */
+
+/* ================================================PARTNERSHIP=================================================== */
+
+.partnership-title h1, .partnership-list h1, .partnership-list-choice h1{
+    font-weight: 900;
+    color: #1746A2;
+}
+
+
+/* ================================================PARTNERSHIP=================================================== */
+
+/* =================================================CAREER======================================================= */
+
+.career-title .career-title-container h1, .culture .culture-container h1, 
+.career-info .career-info-container h1{
+    font-weight: 900;
+}
+
+.career-info .career-info-container .career-box .odd{
+    background-color: #1746A2;
+}
+
+.career-info .career-info-container .career-box .even{
+    background-color: #FF9900;
+}
+
+.career-info .career-info-container .career-box .career-link a{
+    color: #fff;
+}
+
+.career-info .career-info-container .career-box .odd a:hover{
+    color: #1746A2;
+}
+
+.career-info .career-info-container .career-box .even a:hover{
+    color: #FF9900;
+}
+
+.career-info .career-info-container .career-box .odd a{
+    background-color: #FF9900;
+}
+
+.career-info .career-info-container .career-box .even a{
+    background-color: #1746A2;
+}
+
+.culture .culture-container .cultures img{
+    max-width: 150px;
+}
+
+.message .message-container h1{
+    font-weight: 900;
+}
+
+.message .message-container #text-blue{
+    color: #1746A2;
+}
+
+.message .message-container #text-orange{
+    color: #FF731D;
+}
+
+.message .message-container .message-sosmed .sosmed i{
+    font-size: 4rem;
+}
+
+.message .message-container .message-sosmed .sosmed a{
+    background-color: #1746A2;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+
+.message .message-container .message-sosmed .sosmed a:hover{
+    background-color: #FF731D;
+    color: #1746A2;
+}
+
+
+/* =================================================CAREER======================================================= */
+
+/* ==================================================ABOUT======================================================= */
+
+.about-title .about-title-container h1, .timeline .timeline-container h1,
+.timeline .timeline-container .timeline-desc h2, .profiles .profiles-container h1, 
+.profiles .profiles-container .chief h1, .profiles .profiles-container .vice h1{
+    font-weight: 900;
+}
+@media only screen and (max-width: 425px){
+    .timeline .timeline-img .vertical-img{
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .timeline .timeline-img .horizontal-img{
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .timeline .timeline-img .horizontal-img{
+        width: 800px;
+    }
+}
+
+@media only screen and (min-width: 1360px){
+    .timeline .timeline-img .horizontal-img{
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .timeline .timeline-img .horizontal-img{
+        width: 1100px;
+    }
+}
+
+
+/* ==================================================ABOUT======================================================= */

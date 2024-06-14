@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Beranda | House Ilmu Indonesia</title>
+        <link rel="icon" href="assets/img/logo.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="assets/css/navbar-footer.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-md" style="background-color: #FFF7E9 ;">
+            <div class="navbar-container container-sm ">
+                <div class="nav-img d-flex flex-row justify-content-around justify-content-lg-start align-items-center">
+                    <img src="assets/img/logo.png" alt="">
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="nav-bars"><i class="bi bi-list fs-1" style="color: #FE9000;"></i></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse py-3 " id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto text-center d-flex align-items-center justify-content-center fw-semibold" data-aos="fade-left">
+                        <a class="nav-link active rounded-pill" aria-current="page" href="">Home</a>
+                        <a class="nav-link mx-0 mx-md-1 mx-lg-3 rounded-pill" href="programme/">Programme</a>
+                        <a class="nav-link rounded-pill" href="partnership/">Partnership</a>
+                        <a class="nav-link mx-0 mx-md-1 mx-lg-3 rounded-pill" href="article/">Article</a>
+                        <a class="nav-link rounded-pill" href="career/">Career</a>
+                        <a class="nav-link mx-0 mx-md-1 mx-lg-3 rounded-pill" href="about-us/">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="banner container-fluid py-5" style="background-color: #1746A2;">
+            <div class="banner-container container-xl d-flex flex-row justify-content-center  align-items-center ">
+                <div class="banner-text col-12 col-lg-6 px-2 py-4 ">
+                    <h1 style="color: #FF731D; font-size: 4rem" class="fw-bold mb-3">Prepare Your Career With Us</h1>
+                    <p class="text-light lh-base fs-5" style="letter-spacing: 3px;">Persiapkan karirmu bersama para ahli yang siap memandumu dalam mengapai karir impian</p>
+                </div>
+                <div class="banner-img col-0 col-lg-6 d-none d-lg-flex justify-content-center  align-items-center ms-5">
+                    <img class="" src="assets/img/banner.png" alt="">
+                </div>
+            </div>
+                <div class="container-xl col-0 col-md-12 d-flex flex-row align-items-center">
+                    <i class="fa-solid fa-user fs-4" style="color: #f69259;"></i>
+                    <p class="pt-4 ps-2" style="color: #f69259;">>100 Orang Mempersiapkan Karir  </p>
+                </div>
+        </section>
+
+        <section class="programme container-xl mt-4">
+            <div class="programme-container d-flex flex-column justify-content-center align-items-center py-5">
+                <h1 class="col-12 text-center pb-5 fw-bold" style="color: #083D77;">Choose the program that works for you </h1>
+                <div class="programme-box d-flex flex-column flex-lg-row justify-content-around align-items-center">
+                    <div class="programme-list col-12 col-lg-4 d-flex flex-column align-items-start justify-content-center rounded-4 mb-2 mb-lg-0 px-5 py-5" style="background-color: #EE964B;">
+                        <h2 class="pt-3 pb-3 fw-bold" style="color: #1746A2;">Sudut Karir</h2>
+                        <p>Hybrid event yang membahas tentang career preparation secara menyeluruh dari tiap tahapan recruitment.</p>
+                        <a class="ms-auto fw-semibold" href="#">Learn More...</a>
+                    </div>
+                    <div class="programme-list col-12 col-lg-4 d-flex flex-column align-items-start justify-content-center rounded-4 mt-2 mt-lg-0 px-5 py-5" style="background-color: #FE9000;">
+                        <h2 class="pt-3 pb-3 fw-bold" style="color: #1746A2;">Review CV</h2>
+                        <p>Program diskusi santai untuk mengembangkan soft skill dan life skill bersama expert</p>
+                        <a class="ms-auto fw-semibold" href="#">Learn More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class=""></div>
+        </section>
+
+        <section class="partner container-fluid mt-5" style="background-color: #FFDD95;">
+            <div class="partner-container container-xl d-flex flex-column justify-content-center align-items-center">
+                <h1 class="col-12 text-center fw-bold py-3 mt-2" style="color: #083D77;">Who work with us?</h1>
+                <div class="partner-img col-12 d-flex flex-wrap flex-md-row justify-content-around align-items-center py-4 mb-2">
+                    <img src="assets/img/logo.png" alt="">
+                    <img src="assets/img/logo.png" alt="">
+                    <img src="assets/img/logo.png" alt="">
+                    <img src="assets/img/logo.png" alt="">
+                    <img src="assets/img/logo.png" alt="">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial container-xl mt-5">
+            <div class="testimonial-container container-xl d-flex flex-column justify-content-center align-items-center ">
+                <h1 class="col-12 text-center fw-bold py-3 mt-2" style="color: #083D77;">What they says about us?</h1>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper d-flex flex-row justify-content-around">
+                        <div class="swiper-slide odd p-4 rounded-3 col-2 d-flex flex-column justify-content-center align-items-center">
+                            <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
+                                <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
+                                <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
+                                    <p class="mt-2" id="testi-name">Seseorang 1</p>
+                                    <p id="testi-role">Seseorang</p>
+                                </div>
+                            </div>
+                            <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                        </div>
+                        <div class="swiper-slide even p-4 rounded-3 col-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
+                                <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
+                                <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
+                                    <p class="mt-2" id="testi-name">Seseorang 2</p>
+                                    <p id="testi-role">Seseorang</p>
+                                </div>
+                            </div>
+                            <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                        </div>
+                        <div class="swiper-slide odd p-4 rounded-3 col-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
+                                <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
+                                <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
+                                    <p class="mt-2" id="testi-name">Seseorang 3</p>
+                                    <p id="testi-role">Seseorang</p>
+                                </div>
+                            </div>
+                            <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                        </div>
+                        <div class="swiper-slide even p-4 rounded-3 col-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
+                                <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
+                                <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
+                                    <p class="mt-2" id="testi-name">Seseorang 4</p>
+                                    <p id="testi-role">Seseorang</p>
+                                </div>
+                            </div>
+                            <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                        </div>
+                        <div class="swiper-slide odd p-4 rounded-3 col-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
+                                <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
+                                <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
+                                    <p class="mt-2" id="testi-name">Seseorang 5</p>
+                                    <p id="testi-role">Seseorang</p>
+                                </div>
+                            </div>
+                            <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="mentors container-fluid mt-5" style="background-color: #FFDD95;">
+            <div class="mentors-container container-xl d-flex flex-column justify-content-center align-items-center py-4">
+                <h1 class="col-12 text-center fw-bold py-3 mt-2" style="color: #083D77;">Learn From The Experts</h1>
+                <div class="mentors-img d-flex flex-wrap flex-md-row justify-content-around align-items-center py-3 mb-3">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="assets/img/banner.png" alt="">
+                        <div class="text-center px-5 p-3 rounded-bottom" style="background-color: #1746A2;">
+                            <h4 class="fw-bold">Elon Musk</h4>
+                            <h6 class="text-light fw-semibold mb-4">CEO of Tesla</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="assets/img/banner.png" alt="">
+                        <div class="text-center px-5 p-3 rounded-bottom" style="background-color: #1746A2;">
+                            <h4 class="fw-bold">Elon Musk</h4>
+                            <h6 class="text-light fw-semibold mb-4">CEO of Tesla</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="assets/img/banner.png" alt="">
+                        <div class="text-center px-5 p-3 rounded-bottom" style="background-color: #1746A2;">
+                            <h4 class="fw-bold">Elon Musk</h4>
+                            <h6 class="text-light fw-semibold mb-4">CEO of Tesla</h6>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="faq container-xl mt-5">
+            <div class="faq-container d-flex flex-column justify-content-center py-4">
+                <h1 class="col-12 text-center fw-bold py-3 mt-2" style="color: #083D77;">Frequently Ask Questions</h1>
+                <div class="faq-list accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Accordion Item #1
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quam dolor voluptatibus, maiores nesciunt totam?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quam dolor voluptatibus, maiores nesciunt totam?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quam dolor voluptatibus, maiores nesciunt totam?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Accordion Item #4
+                        </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quam dolor voluptatibus, maiores nesciunt totam?</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <div class="border border-1 border-dark"></div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                grabCursor: 'true',
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                    },
+                },
+            });
+        </script>
+    </body>
+
+<footer>
+    <section class="footer-container container-fluid" style="background-color: #FFDD95;">
+        <div class="footer-info container-xl d-flex flex-column flex-md-row justify-content-around align-items-start">
+            <img class="col-12 col-md-3 mx-1 px-1" src="    assets/img/logo.png" alt="">
+            <div class="footer-nav col-12 col-md-3 d-flex flex-column align-items-start mx-1 px-1">
+                <h5 class="py-3">SITEMAP</h5>
+                <a class="my-1" href="">Home</a>
+                <a class="my-1" href="programme">Programme</a>
+                <a class="my-1" href="partnership">Partnership</a>
+                <a class="my-1" href="article">Article</a>
+                <a class="my-1" href="career">Career</a>
+                <a class="my-1" href="about-us">About us</a>
+            </div>
+            <div class="footer-sosmed col-12 col-md-3 d-flex flex-column align-items-start mx-1 px-1">
+                <h5 class="py-3">SOCIAL MEDIA</h5>
+                <a class="my-1" href="#">Facebook</a>
+                <a class="my-1" href="#">LinkedIn</a>
+                <a class="my-1" href="#">Instagram</a>
+                <a class="my-1" href="#">Twitter</a>
+                <a class="my-1" href="#">Tiktok</a>
+            </div>
+            <div class="footer-contact col-12 col-md-3 d-flex flex-column align-items-start mx-1 px-1">
+                <h5 class="py-3">HEAD OFFICE</h5>
+                <p class="mb-5">Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22, Charlottesville, CA 45565</p>
+                <h5 class="py-3">NEWS LETTER</h5>
+                <p class="">Enter your email address</p>
+            </div>
+        </div>
+        <div class="footer-contacts container-xl d-flex flex-column flex-md-row justify-content-center align-items-start">
+            <p class=""><a class="col-12 col-md-4 mx-1 my-1 " href="#">houseilmu@gmail.com </a>|</p>
+            <p><a class="col-12 col-md-4 mx-1 my-1 " href="#">(123) 456-7890 </a>|</p>
+            <p class="col-12 col-md-6 col-lg-4 mx-1  ">&copy; 2024 House Ilmu All rights reserved.</p>
+        </div>
+    </section>
+</footer>
+</html>
