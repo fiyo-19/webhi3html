@@ -13,7 +13,7 @@
 
 body{
     background-color: #FFF7E9;
-    height: 5000px;
+    height: 100%;
 }
 
 body a{
@@ -153,34 +153,87 @@ body a{
     font-weight: 900;
 }
 
+.career-info .career-info-container .career-box .career-link a {
+    color: #fff;
+}
+
+.career-info .career-info-container .career-box .odd {
+    background-color: #1746A2;
+    transition: .5s ease-in-out;
+}
+
+.career-info .career-info-container .career-box .odd a {
+    background-color: #FF9900;
+    transition: .5s ease-in-out;
+}
+
+.career-info .career-info-container .career-box .odd:hover {
+    background-color: #FF9900;
+}
+
+.career-info .career-info-container .career-box .odd:hover a {
+    background-color: #1746A2;
+}
+
+.career-info .career-info-container .career-box .odd a:hover {
+    color: #FF9900;
+}
+
+-
+
+.career-info .career-info-container .career-box .even {
+    background-color: #FF9900;
+    transition: .5s ease-in-out;
+}
+
+.career-info .career-info-container .career-box .even a {
+    background-color: #1746A2;
+    transition: .5s ease-in-out;
+}
+
+.career-info .career-info-container .career-box .even:hover {
+    background-color: #1746A2;
+}
+
+.career-info .career-info-container .career-box .even:hover a {
+    background-color: #FF9900;
+}
+
+.career-info .career-info-container .career-box .even a:hover {
+    color: #1746A2;
+}
+
+
+
+
+/* .career-info .career-info-container .career-box .odd a{
+    background-color: #FF9900;
+}
+
+.career-info .career-info-container .career-box .even a{
+    background-color: #1746A2;
+}
+
 .career-info .career-info-container .career-box .odd{
     background-color: #1746A2;
     transition: .8s ease-in-out;
 }
 
-/* .career-info .career-info-container .career-box .odd:hover{
+.career-info .career-info-container .career-box .odd:hover{
     background-color: #FF9900;
-} */
+}
 
 .career-info .career-info-container .career-box .even{
     background-color: #FF9900;
     transition: .8s ease-in-out;
 }
 
-/* .career-info .career-info-container .career-box .even:hover{
+.career-info .career-info-container .career-box .even:hover{
     background-color: #1746A2;
-} */
+}
 
 .career-info .career-info-container .career-box .career-link a{
     color: #fff;
-}
-
-.career-info .career-info-container .career-box .odd a{
-    background-color: #FF9900;
-}
-
-.career-info .career-info-container .career-box .even a{
-    background-color: #1746A2;
 }
 
 .career-info .career-info-container .career-box .odd a:hover{
@@ -189,7 +242,7 @@ body a{
 
 .career-info .career-info-container .career-box .even a:hover{
     color: #FF9900;
-}
+} */
 
 .culture .culture-container .cultures img{
     max-width: 150px;
