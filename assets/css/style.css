@@ -40,7 +40,7 @@ body a{
 }
 
 .partner .partner-container img{
-    width: 100px;
+    max-width: 50%;
 }
 
 .testimonial .swiper .odd{
