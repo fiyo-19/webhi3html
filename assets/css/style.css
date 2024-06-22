@@ -44,11 +44,11 @@ body a{
 }
 
 .testimonial .swiper .odd{
-    background-color: #FFDD95;
+    background-color: #FFDD95; min-height: 300px;
 }
 
 .testimonial .swiper .even{
-    background-color: #EBEBD3;
+    background-color: #EBEBD3; min-height: 300px;
 }
 
 .testimonial .swiper .swiper-slide #testi-name{
@@ -62,11 +62,23 @@ body a{
 .swiper{
     width: 100%;
     height: 100%;
-}
-
-.swiper{
     margin-left: auto;
     margin-right: auto;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: #1746A2;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #1746A2;
+}
+
+@media only screen and (max-width: 425px){
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+
 }
 
 .mentors .mentors-container .mentors-img img{

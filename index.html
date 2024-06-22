@@ -99,8 +99,8 @@
             </div>
         </section>
 
-        <section class="testimonial container-xl mt-5">
-            <div class="testimonial-container container-xl d-flex flex-column justify-content-center align-items-center ">
+        <section class="testimonial container-xxl mt-5">
+            <div class="testimonial-container container-xxl d-flex flex-column justify-content-center align-items-center ">
                 <h1 class="col-12 text-center fw-bold py-3 mt-2" style="color: #083D77;">What they says about us?</h1>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper d-flex flex-row justify-content-around">
@@ -108,43 +108,43 @@
                             <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
                                 <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
                                 <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
-                                    <p class="mt-2" id="testi-name">Seseorang 1</p>
-                                    <p id="testi-role">Seseorang</p>
+                                    <p class="mt-2" id="testi-name">Oktavia</p>
+                                    <p id="testi-role">Peserta Risyik</p>
                                 </div>
                             </div>
-                            <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                            <p class="col-12 fw-semibold">“Sesinya di house ilmu keren banget. Aku jadi punya insight dan wawasan baru. Bagian yang aku paling suka adalah mentoring. Jangan lupa daftar acara selanjutnya ya!”</p>
                         </div>
                         <div class="swiper-slide even p-4 rounded-3 col-3 d-flex flex-column justify-content-center align-items-center">
                             <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
                                 <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
                                 <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
-                                    <p class="mt-2" id="testi-name">Seseorang 2</p>
-                                    <p id="testi-role">Seseorang</p>
+                                    <p class="mt-2" id="testi-name">Melinda</p>
+                                    <p id="testi-role">Peserta Risyik</p>
                                 </div>
                             </div>
-                            <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                            <p class="col-12 fw-semibold">“Merasa impactful banget karena diajarin bagaimana bangun team bulding, management dan mindset kepemimpinan.”</p>
                         </div>
                         <div class="swiper-slide odd p-4 rounded-3 col-3 d-flex flex-column justify-content-center align-items-center">
                             <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
                                 <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
                                 <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
-                                    <p class="mt-2" id="testi-name">Seseorang 3</p>
-                                    <p id="testi-role">Seseorang</p>
+                                    <p class="mt-2" id="testi-name">Oktavia</p>
+                                    <p id="testi-role">Peserta Risyik</p>
                                 </div>
                             </div>
-                            <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                            <p class="col-12 fw-semibold">“Sesinya di house ilmu keren banget. Aku jadi punya insight dan wawasan baru. Bagian yang aku paling suka adalah mentoring. Jangan lupa daftar acara selanjutnya ya!”</p>
                         </div>
                         <div class="swiper-slide even p-4 rounded-3 col-3 d-flex flex-column justify-content-center align-items-center">
                             <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
                                 <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
                                 <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
-                                    <p class="mt-2" id="testi-name">Seseorang 4</p>
-                                    <p id="testi-role">Seseorang</p>
+                                    <p class="mt-2" id="testi-name">Melinda</p>
+                                    <p id="testi-role">Peserta Risyik</p>
                                 </div>
                             </div>
-                            <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
+                            <p class="col-12 fw-semibold">“Merasa impactful banget karena diajarin bagaimana bangun team bulding, management dan mindset kepemimpinan.”</p>
                         </div>
-                        <div class="swiper-slide odd p-4 rounded-3 col-3 d-flex flex-column justify-content-center align-items-center">
+                        <!-- <div class="swiper-slide odd p-4 rounded-3 col-3 d-flex flex-column justify-content-center align-items-center">
                             <div class="testimonial-img d-flex flex-row justify-content-center align-items-center">
                                 <img class="img-fluid col-6 col-lg-5" src="assets/img/logo.png" alt="">
                                 <div class="testimonial-profile col-6 col-lg-7 d-flex flex-column align-items-start">
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                             <p class="col-12 fw-semibold">“Acara menarik fantastis luar biasa keren maju berkembang daebak gilee”</p>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
@@ -275,6 +275,13 @@
                 pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
+                    renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + " " + '</span>';
+                    },
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
                 },
                 navigation: {
                     nextEl: ".swiper-button-next",
@@ -302,6 +309,13 @@
                 autoplay: {
                     delay: 2500,
                     disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                    renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + " " + '</span>';
+                    },
                 },
                 pagination: {
                     el: ".swiper-pagination",
