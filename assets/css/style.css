@@ -278,5 +278,32 @@ body a{
     }
 }
 
+.profiles .chief .chief-member img{
+    width: 100%;
+}
+
+.profiles .vice .vice-member img{
+    width: 60%;
+}
+
+.profiles .chief .chief-member h3, .profiles .vice .vice-member h3{
+    font-size: 6vw;
+    color: #1746A2;
+}
+
+.profiles .chief .chief-member h5, .profiles .vice .vice-member h5{
+    font-size: 5vw;
+}
+
+@media only screen and (min-width: 768px){
+    .profiles .chief .chief-member h3, .profiles .vice .vice-member h3{
+        font-size: 2vw;
+    }
+
+    .profiles .chief .chief-member h5, .profiles .vice .vice-member h5{
+        font-size: 1.8vw;
+    }
+}
+
 
 /* ==================================================ABOUT======================================================= */
