@@ -4,6 +4,8 @@
 
 .alumni .swiper-slide{
     background-color: #F69259;
+    min-height: 200px;
+    max-height: 400px;
 }
 
 .alumni .swiper .swiper-slide #testi-name{
