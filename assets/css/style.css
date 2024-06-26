@@ -21,7 +21,7 @@ body a{
 }
 
 .banner .banner-container .banner-img img{
-    max-width: 100vh;
+    min-width: 100%;
 }
 
 .programme .programme-container .programme-box .programme-list{
