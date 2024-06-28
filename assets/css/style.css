@@ -151,7 +151,7 @@ body a{
     background-color: #1746A2;
 }
 
-.partnership-list .partnership-list-choice:hover p{
+.partnership-list .partnership-list-choice:hover p, .partnership-list .partnership-list-choice:hover li{
     color: #fff;
 }
 
