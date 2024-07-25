@@ -1,5 +1,6 @@
 ongoing :
-
+-kurang update jobdes ho staf edu associate
+-hosting
 
 done :
 -footer
