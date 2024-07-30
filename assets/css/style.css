@@ -89,6 +89,33 @@ body a{
     color: #FF9900;
 }
 
+.mentors-info .mentors-exp{
+    bottom: 0px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    position: absolute;
+    background-color: #ff9900;
+    opacity: 0.8;
+    transition: all ease-in-out .5s;
+}
+
+.mentors-info:hover .mentors-exp{
+    height: 100%;
+}
+
+.mentors-info .mentors-exp ul{
+    opacity: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    transition: all ease-in-out .5s;
+}
+
+.mentors-info:hover .mentors-exp ul{
+    opacity: 1;
+}
+
 /* =================================================INDEX======================================================== */
 /* ================================================PROGRAMME===================================================== */
 
@@ -316,6 +343,48 @@ body a{
         font-size: 1.8vw;
     }
 }
+
+.profiles .chief .chief-member .member-sosmed .member-sosmed-links,
+.profiles .vice .vice-member .member-sosmed .member-sosmed-links{
+    bottom: 15px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.8;
+    transition: all ease-in-out .5s;
+}
+
+.profiles .vice .vice-member .member-sosmed .member-sosmed-links{
+    bottom: 15px;
+    left: 20%;
+    height: 0;
+    width: 60%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.8;
+    transition: all ease-in-out .5s;
+}
+
+.profiles .chief .chief-member .member-sosmed:hover .member-sosmed-links,
+.profiles .vice .vice-member .member-sosmed:hover .member-sosmed-links{
+    height: 100%;
+    bottom: 0px;
+}
+
+.profiles .chief .chief-member .member-sosmed .member-sosmed-links a,
+.profiles .vice .vice-member .member-sosmed .member-sosmed-links a{
+    opacity: 0;
+    font-size: 2.5rem;
+    transition: all ease-in-out .5s;
+}
+
+.profiles .chief .chief-member .member-sosmed:hover .member-sosmed-links a,
+.profiles .vice .vice-member .member-sosmed:hover .member-sosmed-links a{
+    opacity: 1;
+}
+
 
 
 /* ==================================================ABOUT======================================================= */
